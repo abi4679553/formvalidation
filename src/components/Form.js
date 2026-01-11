@@ -12,7 +12,7 @@ const Form = () => {
 
   const [errors, setErrors] = useState({});
 
-  // handle change
+  
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -20,7 +20,7 @@ const Form = () => {
     });
   };
 
-  // validation
+  
   const validate = () => {
     let newErrors = {};
 
@@ -35,7 +35,7 @@ const Form = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // submit
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -53,7 +53,7 @@ const Form = () => {
       >
         <h2 className="text-xl font-semibold mb-4">Job Details</h2>
 
-        {/* Job Code */}
+        
         <div className="mb-4">
           <label className="block font-medium">Job Code *</label>
           <input
@@ -68,7 +68,7 @@ const Form = () => {
           )}
         </div>
 
-        {/* Job Title */}
+    
         <div className="mb-4">
           <label className="block font-medium">Job Title *</label>
           <input
@@ -83,7 +83,7 @@ const Form = () => {
           )}
         </div>
 
-        {/* Currency & Amount */}
+        
         <div className="grid grid-cols-2 gap-4 mb-4">
           <div>
             <label className="block font-medium">Currency *</label>
@@ -117,7 +117,7 @@ const Form = () => {
           </div>
         </div>
 
-        {/* Dates */}
+        
         <div className="grid grid-cols-2 gap-4 mb-4">
           <div>
             <label className="block font-medium">Start Date *</label>
@@ -148,10 +148,10 @@ const Form = () => {
           </div>
         </div>
 
-        {/* Submit */}
+      
         <button
           type="submit"
-          className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+          className="bg-blue-600 text-white px-7 py-2 rounded hover:bg-blue-700 "
         >
           Submit Job
         </button>
