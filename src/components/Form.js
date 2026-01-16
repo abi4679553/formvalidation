@@ -151,7 +151,7 @@ const Form = () => {
       
         <button
           type="submit"
-          className="bg-green-600 text-white px-7 py-2 rounded hover:bg-pink-700 ">  Submit  </button>
+          className="bg-green-600 text-white px-7 py-2 rounded hover:bg-red-700 ">  Submit  </button>
       </form>
     </div>
   );
