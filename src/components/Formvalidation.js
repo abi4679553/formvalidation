@@ -118,12 +118,7 @@ export default function Form() {
             )}
           </div>
 
-          <button
-            type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-200"
-          >
-            Submit
-          </button>
+          <button  type="submit" className="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-200  ml-56"  >Submit</button>
         </form>
       </div>
     </div>
